@@ -1,0 +1,73 @@
+/* colors.css */
+
+/* Primary Colors */
+:root {
+    --secondary-color: #6c757d; /* Gray */
+    --accent-color: #ffc107; /* Yellow */
+    --background-color: #f8f9fa; /* Light Gray */
+    --text-color: #212529; /* Dark Gray */
+    --light-text-color: #ffffff; /* White for Text */
+}
+
+/* Body Styling */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: var(--primary-color); /* Now uses hero.jpg as the background */
+    border-bottom: 3px solid var(--accent-color); /* Yellow border */
+    background-size: cover; /* Ensure the background image covers the area */
+    background-position: center;
+}
+
+.navbar .navbar-brand {
+    color: var(--light-text-color) !important; /* White for brand text */
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: var(--light-text-color) !important; /* White for default links */
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: var(--accent-color) !important; /* Yellow on hover */
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle hover effect */
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    border-color: var(--light-text-color); /* White border for toggler */
+}
+
+.navbar-toggler-icon {
+    background-color: var(--light-text-color); /* White toggler icon */
+}
+
+/* Hero Section */
+.hero {
+    background: var(--primary-color); /* Now uses hero.jpg as the background */
+    background-size: cover;
+    background-position: center;
+    color: var(--light-text-color);
+    text-align: center;
+    padding: 60px 20px;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.3rem;
+    color: var(--light-text-color);
+}

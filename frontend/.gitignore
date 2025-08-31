@@ -1,0 +1,6 @@
+.vs/
+*.vsidx
+bin/
+obj/
+node_modules/
+sql_data/

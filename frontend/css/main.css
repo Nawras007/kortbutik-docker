@@ -1,0 +1,66 @@
+/* main.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007bff;
+    border-bottom: 3px solid #ffc107;
+}
+
+.navbar .navbar-brand {
+    color: #ffffff !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    font-size: 1.1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Hero Section Styling */
+/* .hero {
+    background: url('../images/hero.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 150px 0;
+    text-align: center;
+} */
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+/* Section Styling */
+.content {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
